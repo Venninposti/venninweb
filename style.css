@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffbf80;
+  text-align: center;
+}
+
+myHero {
+  display: block;
+  background-image: url("x");
+  padding: 50px;
+  font-size: 30px;
+}  
+
+a {
+   color:red;
+   text-align: center;
+}
+
+p {text-align: center;
+}
+h2 {text-align: center;
+}
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+span.likebtn-wrapper {
+  text-align: center;
+  width: 250; 
+  height: 150;
+}
+
+div.ylaotsikko {
+  display: block;
+  background-image: url("https://vennintaide.ga/img/ylaotsikko.png");
+  padding: 50px;
+  font-size: 30px;
+  text-align: left;
+}
+
+div.ylaotsikko myHero {
+  display: block;
+  background-image: url("https://vennintaide.ga/img/ylaotsikko.png");
+  padding: 50px;
+  font-size: 30px;
+}
+
+div.otsikko {
+  text-align: left;
+}
+
+div.uutinen {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 180px;
+}
+
+div.uutinen img {
+  width: 300%;
+  height: 300%;
+  }
+  
+div.uutinen p {
+  font-size: 25px;
+}
+
+div.kuvauutinen {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 180px;
+}
+
+div.blogi {
+  margin: 100px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 480px;
+}
+
+div.blogi p {
+  font-size: 50px;
+}
+
+div.blogi h2 {
+font-size: 40px;
+}
+
+div.gallery {
+  margin: 50px;
+  float: center;
+  width: 180px;
+}
+
+div.gallery:hover {
+  float: center;
+}
+
